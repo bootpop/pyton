@@ -7,16 +7,13 @@ guesses = []
 poisoncount = len(poison)
 
 def difficulty(diff):
-    if diff.lower() == "easy":
-        print("You're playing a game, and the main way you heal is with herbs. However, there's a catch.\n\
+    print("You're playing a game, and the main way you heal is with herbs. However, there's a catch.\n\
 Every herb has a 1 in 10 chance to contain a lethal poison.\n\
 Your goal is to heal as much health as possible without being poisoned.\n")
+    if diff.lower() == "easy":
         text()
         guess(int(input("Choose a number between 1 - 10.\n")))
     elif diff.lower() == "hard":
-        print("You're playing a game, and the main way you heal is with herbs. However, there's a catch.\n\
-Every herb has a 1 in 10 chance to contain a lethal poison.\n\
-Your goal is to heal as much health as possible without being poisoned.\n")
         guess(int(input("Choose a number between 1 - 10.\n")))
     else:
         difficulty(input("That input is invalid! Please select your difficulty.\n\
