@@ -47,7 +47,7 @@ def choice(yes):
 
 
 print("You're playing a game, and the main way you heal is with herbs. However, there's a catch.\n\
-Everytime you heal, there is a 1/10 chance for the herb to inflict poison, killing you instantly.\n\
+Every herb has a 1 in 10 chance to contain a lethal poison.\n\
 Your goal is to heal as much health as possible without being poisoned.\n")
 text()
 guess(int(input("Choose a number between 1 - 10.\n")))
