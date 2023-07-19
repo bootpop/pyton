@@ -29,7 +29,7 @@ def text():
         print(f'Congrats. None of the herbs are poisonous. You win by default.')
         exit()
     elif poisoncount == 10:
-        print(f'All of the herbs are poisonous, so you lose by default. Too bad!')
+        print(f'That was wildly unlucky. All of the herbs are poisonous, so you lose by default. Too bad!')
         exit()
 
 def guess(gwess):
